@@ -17,7 +17,7 @@ class HomePage extends StatelessWidget {
           if (state is HomeInitial) {
             return Scaffold(
               key: _scaoffoldKey,
-              drawer: const Drawer(
+              drawer: Drawer(
                 child: DrawerPage(),
               ),
               appBar: AppBar(
